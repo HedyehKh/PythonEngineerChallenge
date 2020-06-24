@@ -1,0 +1,11 @@
+namespace py challenge
+
+service CalculatorService
+{
+        void ping(),
+        i32 multiply_int(1:i32 n1, 2:i32 n2),
+        i32 add_int(1:i32 n1, 2:i32 n2),
+
+        double multiply_double(1:double n1, 2:double n2),
+        double add_double(1:double n1, 2:double n2),
+}
